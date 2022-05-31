@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="https://codemirror.net/lib/codemirror.css">
-        <script type="text/javascript" src="https://codemirror.net/lib/codemirror.js"></script>
-        <script type="text/javascript" src="https://codemirror.net/mode/xml/xml.js"></script>
-        <script type="text/javascript" src="https://codemirror.net/mode/css/css.js"></script>
-        <script type="text/javascript" src="https://codemirror.net/mode/javascript/javascript.js"></script>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="/udeckcode/udeckcodeicon.ico">
-        <link rel="stylesheet" type="text/css" href="/udeckcode/ce-style.css">
+        {% include head.html %}
     </head>
     <body>
+
+        <img src="/udeckcodeicon.png" class="homeicon"></img>
 
         <div class="header">
             <button id="run-btn">Run Code</button>
@@ -28,6 +21,6 @@
             </div>
         </div>
 
-        <script type="text/javascript" src="/udeckcode/ce-code.js"></script>
+        <script type="text/javascript" src="/ce-code.js"></script>
     </body>
 </html>
